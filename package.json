@@ -1,0 +1,32 @@
+{
+    "name": "rvfc-legacy-polyfill",
+    "version": "0.1.0",
+    "description": "Legacy requestVideoFrameCallback polyfill using requestAnimationFrame + video.currentTime.",
+    "keywords": [
+        "requestVideoFrameCallback",
+        "rvfc",
+        "polyfill",
+        "video",
+        "webos",
+        "legacy"
+    ],
+    "license": "Apache-2.0",
+    "author": "Esteban Diaz",
+    "main": "rvfc-legacy-polyfill.js",
+    "module": "rvfc-legacy-polyfill.js",
+    "exports": {
+        ".": "./rvfc-legacy-polyfill.js"
+    },
+    "files": [
+        "rvfc-legacy-polyfill.js"
+    ],
+    "sideEffects": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ediaz23/rvfc-legacy-polyfill.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ediaz23/rvfc-legacy-polyfill/issues"
+    },
+    "homepage": "https://github.com/ediaz23/rvfc-legacy-polyfill#readme"
+}
